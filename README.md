@@ -239,32 +239,3 @@ YEARS_SYN = 100;
 ```
 
 Then increase to the desired production length once the workflow is validated.
-
-## Suggested repository structure
-
-```text
-.
-├── README.md
-├── gss_with_modes_fixed.m
-├── gss_old.m
-├── test_example.m
-├── data/
-│   └── README.md              # describe where example data can be obtained
-└── examples/
-    └── test_example.m
-```
-
-Large `.mat` files should generally not be committed directly to GitHub. If
-example data are needed, consider hosting them separately and linking to them
-from the repository.
-
-## Citation
-
-If you use this code, please cite the associated manuscript:
-
-```text
-Zhao et al. Detecting Temperature Extremes in a Statistically Optimal Way.
-Manuscript in preparation/submitted.
-```
-
-Update this citation once the final publication information is available.
